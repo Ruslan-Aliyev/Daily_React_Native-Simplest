@@ -15,9 +15,9 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@config-plugins/react-native-webrtc": "^8.0.0",
-    "@daily-co/config-plugin-rn-daily-js": "^0.0.5",
-    "@daily-co/react-native-daily-js": "^0.70.0",
+    "@config-plugins/react-native-webrtc": "10.0.0",
+    "@daily-co/config-plugin-rn-daily-js": "0.0.7",
+    "@daily-co/react-native-daily-js": "0.70.0",
     "@daily-co/react-native-webrtc": "118.0.3-daily.2",
     "@expo/vector-icons": "^14.0.2",
     "@react-native-async-storage/async-storage": "^1.24.0",
