@@ -14,6 +14,9 @@
       "infoPlist": {
         "NSMicrophoneUsageDescription": "We need access to your microphone for calls",
         "NSSpeechRecognitionUsageDescription": "This app shall recognize your speech during calls",
+        "UIBackgroundModes": [
+          "voip"
+        ]
       }
     },
     "android": {
@@ -30,6 +33,8 @@
     },
     "plugins": [
       "expo-router",
+      "@config-plugins/react-native-webrtc",
+      "@daily-co/config-plugin-rn-daily-js",
       [
         "expo-splash-screen",
         {
